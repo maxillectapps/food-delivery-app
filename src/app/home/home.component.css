@@ -1,0 +1,96 @@
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-left: 2em;
+    padding-right: 2em;
+    overflow: hidden;
+    flex-wrap: wrap;
+  }
+
+ul li{
+margin-top: 1rem;
+margin-bottom: 1rem;
+}  
+
+ul li a
+  {
+    height: 18rem;
+    width: 25rem;
+    border: 1px solid whitesmoke;
+    border-radius: 1rem 1rem 0rem 0rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    color: green;
+  }
+
+  li a:hover{
+    opacity: 0.8;
+    cursor: pointer;
+  }
+
+  .content{
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    padding: .5rem 1rem;
+    position: relative;
+    background-color: whitesmoke;
+    border-radius: 0rem 0rem 1rem 1rem;
+  }
+
+  .name{
+    font-weight: bold;
+    font-size: 18px;
+    color: green;
+  }
+
+  .favorite{
+    position: absolute;
+    top: .5rem;
+    right: 1rem;
+    font-size: 1.2rem;
+    color: green;
+  }
+ 
+  .favorite.not{
+    color: black;
+  }
+
+  .star{
+    margin-top: .2rem;
+    margin-bottom: .2rem;
+  }
+
+  .product-item-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .cuisines{
+  flex: 9;
+  }
+ 
+  .cuisines span{
+  border-radius: 2rem;
+  background-color: whitesmoke;
+  color: gray;
+  font-size: .8rem;
+  margin-right: .3rem;
+  display: inline-block;
+  }
+
+  .cooking-time{
+    font-size: .8rem;
+    flex: 3;
+    text-align: right;
+  }
+
+  .price{
+    color: #424242;
+    margin-top: .3rem;
+  }
