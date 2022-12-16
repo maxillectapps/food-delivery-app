@@ -1,6 +1,6 @@
 # FoodOrderingSystem
 
-Food Delivery App is interactive app for food delivery with a nice UI.
+FoodOrderingSystem is an interactive app for food delivery with a nice UI.
 
 Landing Page
 
